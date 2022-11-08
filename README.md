@@ -4,7 +4,7 @@ This repository contains the code and analysis findings used for depression pred
 
 
 ### The architecture of the proposed framework 
-<img src="assets/Figures/figure1.png">  
+![Alt text](Figures/figure1.png "framework")  
 
 Detail of the proposed framework for the multitask classification. First, collect the dataset with multi-modalities. Second, a number of preprocessing
 steps are performed for the model stability such as normalization, and class imbalanced technique. Third, we used a variational autoencoder (VAE) for feature
