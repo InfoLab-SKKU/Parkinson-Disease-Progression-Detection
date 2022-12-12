@@ -6,7 +6,9 @@ This repository contains the code and analysis findings used for depression pred
 ### The architecture of the proposed framework 
 
 <div align="center">
+  
 ![Alt text](Figures/figure2.png "framework")  
+  
 </div>
 
 <p align="justify">
