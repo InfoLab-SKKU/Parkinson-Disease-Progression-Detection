@@ -5,11 +5,12 @@ This repository contains the code and analysis findings used for depression pred
 
 ### The architecture of the proposed framework 
 ![Alt text](Figures/figure2.png "framework")  
-
+<p align="justify">
 Detail of the proposed framework for the multitask classification. First, collect the dataset with multi-modalities. Second, a number of preprocessing
 steps are performed for the model stability such as normalization, and class imbalanced technique. Third, we used a variational autoencoder (VAE) for feature
 extraction. Fourth, a 3D CNN extracts the MRI deep features and used them with the fusion of VAE obtained features. 5-fold cross-validation and testing are
 used for evaluation. The model is trained on the selected features and fused features. In the end, the results are evaluated on the testing set after hyperparameter
+</p>
 optimization for single and multi-tasks. Mods 1,2,3 are the approaches of experiments, explain in detail in the Results and Discussion section.
 
 #### PPMI Dataset 
