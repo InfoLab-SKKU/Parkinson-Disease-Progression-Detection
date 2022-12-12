@@ -14,12 +14,14 @@ used for evaluation. The model is trained on the selected features and fused fea
 optimization for single and multi-tasks. Mods 1,2,3 are the approaches of experiments, explain in detail in the Results and Discussion section.
 
 #### PPMI Dataset 
+<p align="justify">
 This research is conducted using the PPMI database [Database link](http://www.ppmi-info.org/data). The database is a multi-national, large-scale database that records the progression of PD. The database is comprehensive in its coverage of patient,clinical information
-
+</p>
 #### Results analysis
-
+<p align="justify">
 Our study is divided into two groups: single-task and multitask experiments. We conducted three single-task experiments in which our proposed model trained on a specific classification task (e.g., prediction of NHY stage or depression level or whether the patient is depressed or not). We designed the model for multitasking studies to predict two or three classification tasks simultaneously. Our proposed model is evaluated in this section using performance matrices such as accuracy, precision, recall, and F1-score.
-
+</p>
 ![Alt text](Figures/figure1.png "Results")  
-
+<p align="justify">
 The performance evaluation on the prediction of the severity of PD patients based on NHY scale with or without depression and the level of depression across different time steps for single-task and multitasking ( three tasks) experiment. (a) A four-class NHY scale that defines the stage of PD. (b) A binary class that determines whether or not a patient is depressed. (c) A four-class depression scale that indicates the severity of depression. The performance matrices compare to the testing dataset. The bar on the top of each column represents the standard error.
+</p>
