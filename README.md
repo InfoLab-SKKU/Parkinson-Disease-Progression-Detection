@@ -40,6 +40,17 @@ The performance evaluation on the prediction of the severity of PD patients base
 
 ### Guideline for reproducing results 
 
+# After getting Dataset and Preproces it according to Problem statement
+
+Run 
+```bash
+01_Depression_BiLSTM.ipynb 
+```
+To find out Best model parameters 
+Run
+```bash
+02_KerasT_Bilstm.ipynb    
+```
 # Directory
 <pre>
 
