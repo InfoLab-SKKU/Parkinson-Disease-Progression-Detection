@@ -37,3 +37,20 @@ Our study is divided into two groups: single-task and multitask experiments. We 
 <p align="justify">
 The performance evaluation on the prediction of the severity of PD patients based on NHY scale with or without depression and the level of depression across different time steps for single-task and multitasking ( three tasks) experiment. (a) A four-class NHY scale that defines the stage of PD. (b) A binary class that determines whether or not a patient is depressed. (c) A four-class depression scale that indicates the severity of depression. The performance matrices compare to the testing dataset. The bar on the top of each column represents the standard error.
 </p>
+
+### Guideline for reproducing results 
+
+# Directory
+<pre>
+
+├─model
+│  ├─01_Depression_BiLSTM.ipynb
+│  │─02_KerasT_Bilstm.ipynb      
+│  └─03_Keras tuner.ipynb 
+│          
+│─Figures
+│    └─Figure1.png
+│    ├─Figure2.png
+│   
+└─requirements.txt
+</pre>
