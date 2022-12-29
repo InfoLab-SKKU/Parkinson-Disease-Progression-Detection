@@ -19,7 +19,7 @@ used for evaluation. The model is trained on the selected features and fused fea
 </p>
 optimization for single and multi-tasks. Mods 1,2,3 are the approaches of experiments, explain in detail in the Results and Discussion section.
 
-#### PPMI Dataset 
+### PPMI Dataset 
 <p align="justify">
 This research is conducted using the PPMI database [Database link](http://www.ppmi-info.org/data). The database is a multi-national, large-scale database that records the progression of PD. The database is comprehensive in its coverage of patient,clinical information
 </p>
