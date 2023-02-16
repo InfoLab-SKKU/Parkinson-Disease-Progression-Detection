@@ -4,7 +4,7 @@ This repository contains the code and analysis findings used for depression pred
 
 
 
-### The architecture of the proposed framework 
+### The design of the suggested framework's structure.
 
 <div align="center">
   
@@ -13,21 +13,22 @@ This repository contains the code and analysis findings used for depression pred
 </div>
 
 <p align="justify">
-Detail of the proposed framework for the multitask classification. First, collect the dataset with multi-modalities. Second, a number of preprocessing
-steps are performed for the model stability such as normalization, and class imbalanced technique. Third, we used a variational autoencoder (VAE) for feature
-extraction. Fourth, a 3D CNN extracts the MRI deep features and used them with the fusion of VAE obtained features. 5-fold cross-validation and testing are
-used for evaluation. The model is trained on the selected features and fused features. In the end, the results are evaluated on the testing set after hyperparameter
+The proposed framework for multitask classification involves several steps. Firstly, a dataset with multiple modalities is collected. Secondly, various preprocessing techniques such as normalization and class imbalance correction are applied to ensure model stability. Thirdly, feature extraction is performed using a variational autoencoder (VAE). Fourthly, deep features are extracted from MRI data using a 3D CNN, which are then combined with the VAE-derived features. Evaluation is conducted through 5-fold cross-validation and testing. The model is trained using the selected features and fused features. Finally, the hyperparameters are tuned and the model is evaluated on the testing set to determine its effectiveness.
 </p>
-optimization for single and multi-tasks. Mods 1,2,3 are the approaches of experiments, explain in detail in the Results and Discussion section.
+
+The optimization of single and multi-tasks is accomplished through the use of three different experimental approaches, which are referred to as Mods 1, 2, and 3. These approaches are explained in greater detail in the Results and Discussion section.
+
+
+
 
 ### PPMI Dataset 
 <p align="justify">
-This research is conducted using the PPMI database [Database link](http://www.ppmi-info.org/data). The database is a multi-national, large-scale database that records the progression of PD. The database is comprehensive in its coverage of patient,clinical information
+The study utilizes the PPMI database, which can be accessed through this link: Database link. This database is a multinational and extensive repository that monitors the progression of Parkinson's disease, and includes comprehensive patient and clinical information.
 </p>
 
 #### Results analysis
 <p align="justify">
-Our study is divided into two groups: single-task and multitask experiments. We conducted three single-task experiments in which our proposed model trained on a specific classification task (e.g., prediction of NHY stage or depression level or whether the patient is depressed or not). We designed the model for multitasking studies to predict two or three classification tasks simultaneously. Our proposed model is evaluated in this section using performance matrices such as accuracy, precision, recall, and F1-score.
+The study is separated into two categories, consisting of single-task and multitask experiments. In the single-task experiments, we trained our proposed model to predict a specific classification task, such as the prediction of NHY stage, depression level, or the determination of depression presence in a patient. For the multitask experiments, we designed the model to predict two or three classification tasks concurrently. The effectiveness of our proposed model is evaluated in this section using performance metrics like accuracy, precision, recall, and F1-score.
 </p>
 <div align="center">
   
@@ -35,12 +36,12 @@ Our study is divided into two groups: single-task and multitask experiments. We 
 
 </div>
 <p align="justify">
-The performance evaluation on the prediction of the severity of PD patients based on NHY scale with or without depression and the level of depression across different time steps for single-task and multitasking ( three tasks) experiment. (a) A four-class NHY scale that defines the stage of PD. (b) A binary class that determines whether or not a patient is depressed. (c) A four-class depression scale that indicates the severity of depression. The performance matrices compare to the testing dataset. The bar on the top of each column represents the standard error.
+The study assesses the performance of the proposed model in predicting the severity of Parkinson's disease (PD) in patients based on the NHY scale, with and without depression, as well as the level of depression across various time steps in both single-task and multitasking (three tasks) experiments. The evaluation is conducted using (a) a four-class NHY scale that specifies the stage of PD, (b) a binary class that indicates the presence or absence of depression, and (c) a four-class depression scale that indicates the degree of depression severity. The performance metrics are compared to the testing dataset, and the standard error is represented by the bar on top of each column.
 </p>
 
 ### Guideline for reproducing results 
 
-# After getting Dataset and Preproces it according to Problem statement
+# Upon obtaining the dataset, it is preprocessed according to the problem statement.
 
 Run 
 ```bash
