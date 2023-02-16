@@ -1,4 +1,4 @@
-# Depression Prognosis and Parkinson’s Disease Progression Detection Using Multitask Deep Learning Model and Multimodal Time Series Data
+A multitask deep learning model and multimodal time series data are utilized for detecting the progression of Parkinson's disease and predicting the prognosis of depression.
 -------------
 This repository contains the code and analysis findings used for depression prediction and Parkinson's disease progression detection with multitask deep learning.
 
