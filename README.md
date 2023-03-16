@@ -28,7 +28,7 @@ This research makes use of the PPMI database, which may be viewed at Database li
 
 #### Results analysis
 <p align="justify">
-The research is broken down into two groups: single-task experiments and multitask experiments. Single-task tests focused on training our proposed model to predict a single classification task, such as NHY stage, depression degree, or the existence of depression in a patient. In order to anticipate two or three separate classification tasks at once, we built the model for the multitask tests with that in mind. In this part, we use measures like as accuracy, precision, recall, and F1-score to assess the efficacy of our suggested model.
+The study is divided into two categories: single-task experiments and multitask experiments. Single-task experiments concentrate on training the proposed model to predict a single classification task, such as NHY stage, depression severity, or the presence of depression in a patient. For multitask experiments, the model is designed to simultaneously predict two or three distinct classification tasks. In this section, we employ metrics such as accuracy, precision, recall, and F1-score to evaluate the effectiveness of our suggested model.
 </p>
 <div align="center">
   
@@ -36,7 +36,7 @@ The research is broken down into two groups: single-task experiments and multita
 
 </div>
 <p align="justify">
-This research evaluates the efficacy of the suggested model in predicting Parkinson's disease (PD) severity in patients using the NHY scale, both with and without depression, and at varying time steps in single-task and multitask (three-task) tests. The evaluation uses (a) a four-class NHY scale to determine the stage of PD, (b) a binary class to determine the presence or absence of depression, and (c) a four-class depression scale to determine the degree of depression severity. The standard error is depicted by the bar at the top of each column, and the performance metrics are compared to the testing dataset.
+This study assesses the effectiveness of the proposed model in predicting Parkinson's disease (PD) severity in patients using the NHY scale, considering both patients with and without depression, and at various time steps in single-task and multitask (three-task) experiments. The evaluation employs (a) a four-class NHY scale to ascertain the stage of PD, (b) a binary class to identify the presence or absence of depression, and (c) a four-class depression scale to determine the severity of depression. The standard error is represented by the bar at the top of each column, and the performance metrics are compared against the testing dataset.
 </p>
 
 ### Guideline for reproducing results 
