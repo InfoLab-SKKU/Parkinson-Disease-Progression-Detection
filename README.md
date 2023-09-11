@@ -52,17 +52,27 @@ Run
 ```bash
 02_KerasT_Bilstm.ipynb    
 ```
+Run
+```bash
+03_KerasT_tuner.ipynb    
+```
+Run
+```bash
+04_FeatureSelection.ipynb    
+```
 # Directory
 <pre>
 
 ├─model
 │  ├─01_Depression_BiLSTM.ipynb
 │  │─02_KerasT_Bilstm.ipynb      
-│  └─03_Keras tuner.ipynb 
-│          
+│  │─03_Keras tuner.ipynb 
+│  └─03_Keras tuner.ipynb        
+│
 │─Figures
-│    └─Figure1.png
-│    ├─Figure2.png
+│  ├─Figure1.png
+│  └─Figure2.png   
+│  
 │   
 └─requirements.txt
 </pre>
