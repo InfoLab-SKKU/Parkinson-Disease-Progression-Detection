@@ -1,7 +1,7 @@
 pandas==1.3.5
 opencv-contrib-python==4.6.0.66
 opencv-python==4.6.0.66
-tensorflow==2.6.0
+tensorflow==2.6.2
 keras @ file:///home/ktietz/ci_310/keras_split_1643826818613/work/keras-2.6.0-py2.py3-none-any.whl
 Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
 Keras-Tuner
