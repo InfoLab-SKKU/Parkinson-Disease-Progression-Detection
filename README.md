@@ -1,4 +1,4 @@
-In this work, we proposed a deep learning model capable of identifiing Parkinson's disease progression and the prognostic prediction of depression utilizing multimodal time series data.
+In this work, we proposed a deep learning model capable of identifying Parkinson's disease progression and the prognostic prediction of depression utilizing multimodal time series data.
 -------------
 This repository contains the code and analysis findings used for depression prediction and Parkinson's disease progression detection with multitask deep learning.
 
@@ -23,12 +23,12 @@ Improvements 1, 2, and 3 are three distinct experimental methodologies used to o
 
 ### PPMI Dataset 
 <p align="justify">
-This research makes use of the PPMI database, which may be viewed at Database link. This database tracks the development of Parkinson's disease throughout the world and includes rich patient and clinical details.
+This research makes use of the PPMI database, which may be viewed at the Database link. This database tracks the development of Parkinson's disease throughout the world and includes rich patient and clinical details.
 </p>
 
 #### Results analysis
 <p align="justify">
-The study is divided into two categories: single-task experiments and multitask experiments. Single-task experiments concentrate on training the proposed model to predict a single classification task, such as NHY stage, depression severity, or the presence of depression in a patient. For multitask experiments, the model is designed to simultaneously predict two or three distinct classification tasks. In this section, we employ metrics such as accuracy, precision, recall, and F1-score to evaluate the effectiveness of our suggested model.
+The study is divided into two categories: single-task experiments and multitask experiments. Single-task experiments concentrate on training the proposed model to predict a single classification task, such as the NHY stage, depression severity, or the presence of depression in a patient. For multitask experiments, the model is designed to simultaneously predict two or three distinct classification tasks. In this section, we employ metrics such as accuracy, precision, recall, and F1-score to evaluate the effectiveness of our suggested model.
 </p>
 <div align="center">
   
@@ -47,7 +47,7 @@ Run
 ```bash
 01_Depression_BiLSTM.ipynb 
 ```
-To find out Best model parameters 
+To find out the Best model parameters 
 Run
 ```bash
 02_KerasT_Bilstm.ipynb    
